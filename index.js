@@ -34,4 +34,4 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(Process.env.PORT);
+server.listen(process.env.PORT);
